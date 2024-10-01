@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="yaap"
+           fetch="https://github.com/yaap"
+           revision="refs/heads/fourteen" />
+
+  <!-- Packages Repos -->
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="yaap" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
+
+</manifest>
